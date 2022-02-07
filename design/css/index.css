@@ -1,0 +1,179 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* header */
+.postion{
+    position: absolute;
+    margin-top: 8%;
+    margin-left: 1%;
+    padding: 12%;
+}
+
+.card{
+    box-shadow: 0.2px 0.2px 0px rgb(19, 19, 19) ;
+}
+/* card */
+.btn_card{
+    display: flex;
+
+   
+
+}
+
+.btn_card button{
+    border: solid 1px rgb(0, 255, 98);
+    background-color: #ffffff;
+    color: rgb(0, 255, 98);
+    padding: 5px;
+    text-align: center;
+    box-shadow: 0.6px 1px  0px  rgb(0, 255, 98);
+    
+    
+
+}
+/* footer */
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: gray;
+  
+}
+.footer ul{
+    display: flex;
+    list-style: none;
+}
+.footer ul li{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.fa {
+  padding: 12px;
+  font-size: 30px;
+  /* width: 30px; */
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa-facebook {
+    background: #ffffff;
+  color: gray;
+}
+.fa-twitter {
+    background: #ffffff;
+  color: gray;
+}
+.fa-linkedin {
+    background: #ffffff;
+  color: gray;
+}
+@media only screen and (max-width: 768px) {
+    .postion{
+        position: absolute;
+        margin-top: 1%;
+        margin-left: 1%;
+        padding: 5%;
+    }
+    
+    .header h1{
+        font-size: 180%;
+     }
+     .header p{
+        font-size: 110%;
+        color: white;
+     }
+     .header a{
+        font-size: 100%;
+        color: white;   
+     }
+}
+@media only screen and (max-width: 575.65px) {
+    .postion{
+        position: absolute;
+        margin-top: 1%;
+        margin-left: 1%;
+        padding: 5%;
+    }
+    
+    .header h1{
+        font-size: 150%;
+     }
+     .header p{
+        font-size: 100%;
+        color: white;
+     }
+     .header a{
+        font-size: 70%;
+        color: white;   
+     }
+}
+
+@media only screen and (max-width: 500px) {
+    .postion{
+        position: absolute;
+        margin-top: 1%;
+        margin-left: 1%;
+        padding: 5%;
+    }
+    
+    .header h1{
+        font-size: 110%;
+     }
+     .header p{
+        font-size: 65%;
+        color: white;
+     }
+     .header a{
+        font-size: 65%;
+        color: white;   
+     }
+}
+
+@media only screen and (max-width: 376px) {
+    .postion{
+        position: absolute;
+        margin-top: 1%;
+        margin-left: 1%;
+        padding: 5%;
+    }
+    
+    .header h1{
+        font-size: 110%;
+     }
+     .header p{
+        font-size: 62%;
+        color: white;
+     }
+     .header a{
+        font-size: 65%;
+        color: white;   
+     }
+}
+@media only screen and (max-width: 320px) {
+    .postion{
+        position: absolute;
+        margin-top: 1%;
+        margin-left: 1%;
+        padding: 5%;
+    }
+    
+    .header h1{
+        font-size: 100%;
+     }
+     .header p{
+        font-size: 50%;
+        color: rgb(255, 255, 255);
+     }
+     .header a{
+        font-size: 40%;
+        color: white;   
+     }
+}
+
+
+
+@media only screen and (min-width: 1200px) {
+   
+}
